@@ -71,7 +71,7 @@ nav img {
 }
 
 .support {
-  background-color: darkblue;
+  background-color: #352945;
   color: white;
   padding: 12px 18px;
   font-weight: bold;
@@ -175,7 +175,7 @@ nav img {
 }
 
 .support-text {
-  background-color: darkblue;
+  background-color: #352945;
   padding: 12px;
   width: 80%;
   font-weight: bold;
@@ -204,7 +204,7 @@ nav img {
 }
 
 .see-more a {
-  border-bottom: 1px solid darkblue;
+  border-bottom: 1px solid #352945;
 }
 
 .see-more {
@@ -248,7 +248,7 @@ nav img {
 /* footer */
 footer {
     padding: 20px;
-    background-color: darkblue;
+    background-color: #352945;
     margin-top: 90px;
     color: #7f9fb6;
 }
