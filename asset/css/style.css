@@ -108,3 +108,27 @@ header {
 .support-text a {
   color: white;
 }
+
+.our-product {
+  text-align: center;
+}
+
+.image-describe-why {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-describe-why img {
+  object-fit: contain;
+  width: 300px;
+  border-radius: 4px;
+}
+
+.see-more a {
+  border-bottom: 1px solid darkblue;
+}
+
+.see-more {
+  text-align: center;
+}
