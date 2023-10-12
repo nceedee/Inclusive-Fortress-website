@@ -85,6 +85,8 @@ header {
   background-size: cover;
   background-position: center;
   margin-top: 80px;
+  display: flex;
+  align-items: center;
 }
 
 .header-text {
@@ -93,7 +95,6 @@ header {
 
 .text {
   width: 40%;
-  padding-top: 60px;
 }
 
 .support-text {
