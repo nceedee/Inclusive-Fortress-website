@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 *::-webkit-scrollbar {
   display: none;
 }
@@ -123,10 +124,8 @@ nav img {
 }
 
 .header {
-  background-image: linear-gradient(
-      rgba(15, 15, 15, 0.7),
-      rgba(13, 13, 14, 0.5)
-    ),
+  background-image: linear-gradient(rgba(15, 15, 15, 0.7),
+      rgba(13, 13, 14, 0.5)),
     url(../image/teeth.jpeg);
   height: 100vh;
   width: 100%;
@@ -139,17 +138,14 @@ nav img {
 }
 
 .header-job {
-  background-image: linear-gradient(
-      rgba(15, 15, 15, 0.7),
-      rgba(13, 13, 14, 0.5)
-    ),
+  background-image: linear-gradient(rgba(15, 15, 15, 0.7),
+      rgba(13, 13, 14, 0.5)),
     url(../image/job-header.webp);
 }
+
 .header-about {
-  background-image: linear-gradient(
-      rgba(15, 15, 15, 0.7),
-      rgba(13, 13, 14, 0.5)
-    ),
+  background-image: linear-gradient(rgba(15, 15, 15, 0.7),
+      rgba(13, 13, 14, 0.5)),
     url(../image/about-us-background.jpg);
 }
 
@@ -161,10 +157,8 @@ nav img {
 }
 
 .header-support {
-  background-image: linear-gradient(
-      rgba(15, 15, 15, 0.7),
-      rgba(13, 13, 14, 0.5)
-    ),
+  background-image: linear-gradient(rgba(15, 15, 15, 0.7),
+      rgba(13, 13, 14, 0.5)),
     url(../image/contact.jpg);
 }
 
@@ -172,7 +166,8 @@ nav img {
   width: 400%;
   display: flex;
   overflow: hidden;
-  animation: slide 40s linear infinite; /* Adjust the duration as needed */
+  animation: slide 40s linear infinite;
+  /* Adjust the duration as needed */
 }
 
 .header-img-product img {
@@ -184,10 +179,13 @@ nav img {
   0% {
     transform: translateX(0);
   }
+
   100% {
-    transform: translateX(-100%); /* Slide the width of all images */
+    transform: translateX(-100%);
+    /* Slide the width of all images */
   }
 }
+
 .why-inclusive {
   background-color: white;
   padding: 20px;
@@ -218,7 +216,7 @@ nav img {
   width: 40%;
 }
 
-.mobile-nav{
+.mobile-nav {
   display: none;
 }
 
@@ -266,10 +264,8 @@ nav img {
 
 .deliver-accross-globe {
   /* background-color: #f5ecfd; */
-  background-image: linear-gradient(
-      rgba(15, 15, 15, 0.7),
-      rgba(13, 13, 14, 0.5)
-    ),
+  background-image: linear-gradient(rgba(15, 15, 15, 0.7),
+      rgba(13, 13, 14, 0.5)),
     url(../image/GLOBE.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -287,10 +283,8 @@ nav img {
 
 .text-home {
   margin: auto;
-  background: linear-gradient(
-    rgba(235, 243, 251, 0.3),
-    rgb(235, 243, 251, 0.5)
-  );
+  background: linear-gradient(rgba(235, 243, 251, 0.3),
+      rgb(235, 243, 251, 0.5));
   padding: 13px;
 }
 
@@ -298,11 +292,9 @@ nav img {
 footer {
   padding: 20px;
   background-color: darkblue;
-  margin-top: 90px;
-    padding: 20px;
-    background-color: #352945;
-    /* margin-top: 90px; */
-    color: #7f9fb6;
+  padding: 20px;
+  background-color: #352945;
+  color: #7f9fb6;
 }
 
 footer a {
@@ -382,6 +374,7 @@ img:hover {
   .footer1 p {
     text-align: center;
   }
+
   .footer {
     flex-direction: column;
     align-items: center;
@@ -415,7 +408,7 @@ img:hover {
     display: none;
   }
 
-  .mobile-center-nav p a{
+  .mobile-center-nav p a {
     color: white;
   }
 
@@ -445,11 +438,12 @@ img:hover {
     gap: 16px;
   }
 
-  .header{
+  .header {
     height: auto;
     padding: 6px;
   }
-  .header-img-product{
+
+  .header-img-product {
     /* display: none; */
     animation: slide 10s linear infinite;
   }
