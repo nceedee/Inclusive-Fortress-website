@@ -13,6 +13,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 16px;
+  background-color: #E0DDCF;
 }
 
 a {
@@ -187,7 +188,6 @@ nav img {
 }
 
 .why-inclusive {
-  background-color: white;
   padding: 20px;
 }
 
