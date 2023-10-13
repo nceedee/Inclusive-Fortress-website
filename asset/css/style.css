@@ -54,6 +54,10 @@ nav {
   justify-content: space-between;
   padding: 16px;
   display: none;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 .mobile-header img {
@@ -527,6 +531,10 @@ border-radius: 6px;
     justify-content: center;
     flex-direction: column;
     gap: 16px;
+  }
+
+  header{
+    margin-top: 50px;
   }
 
   .header {
