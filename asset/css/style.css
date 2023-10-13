@@ -291,7 +291,6 @@ nav img {
 /* footer */
 footer {
   padding: 20px;
-  background-color: darkblue;
   padding: 20px;
   background-color: #352945;
   color: #7f9fb6;
@@ -361,6 +360,105 @@ footer a {
 .social-footer a span {
   color: #ebb583;
 }
+.job{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.no-job{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  color: #352945;
+}
+
+.no-job i{
+  font-size: 30px;
+color: #352945;
+}
+
+.contact-support{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.box{
+  background-color: white;
+  text-align: black;
+  box-shadow: -6px 17px 30px -16px rgba(112,104,104,1);
+-webkit-box-shadow: -6px 17px 30px -16px rgba(112,104,104,1);
+-moz-box-shadow: -6px 17px 30px -16px rgba(112,104,104,1);
+height: auto;
+width: 320px;
+/* line-height: 0; */
+padding: 12px;
+border-radius: 6px;
+}
+
+.box i{
+  background-color: #352945;
+  color: white;
+  padding: 16px;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.call{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+}
+
+.call a{
+  color: blueviolet;
+}
+
+.email a{
+  color: blueviolet;
+}
+
+.social-icon {
+  display: flex;
+  gap: 6px;
+}
+.social-icon .fa-facebook{
+  background-color: blueviolet;
+  color: white;
+  padding: 4px;
+  font-size: 25px;
+  border-radius: 4px;
+}
+
+.social-icon .fa-instagram{
+  background-color: red;
+  color: white;
+  padding: 4px;
+  font-size: 25px;
+  border-radius: 4px;
+}
+
+.social-icon .fa-whatsapp{
+  background-color: green;
+  color: white;
+  padding: 4px;
+  font-size: 25px;
+  border-radius: 4px;
+}
+
+.support-contact-side{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 
 @media (max-width: 991px) {
   .footer1 p {
@@ -388,6 +486,7 @@ footer a {
   .socio-footer {
     width: 20%;
   }
+  
 
   .mobile-nav {
     background-color: #352945;
@@ -436,8 +535,18 @@ footer a {
   }
 
   .header-img-product {
-    /* display: none; */
     animation: slide 10s linear infinite;
+  }
+
+  .contact-support{
+    flex-direction: column;
+    margin: auto;
+    gap: 30px;
+  }
+
+  .box{
+    width: 80%;
+    margin: auto;
   }
 }
 
