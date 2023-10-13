@@ -349,14 +349,6 @@ footer a {
   justify-content: space-between;
 }
 
-img {
-  transition: all 1s ease-in-out;
-}
-
-img:hover {
-  transform: scale(1.1);
-}
-
 
 .social-footer {
   display: flex;
