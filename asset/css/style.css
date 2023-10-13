@@ -71,7 +71,7 @@ nav {
 }
 
 .border {
-  border-bottom: 1px solid rgb(228, 222, 222);
+  border-bottom: 1px solid rgb(52, 49, 49);
 }
 
 nav img {
@@ -365,10 +365,10 @@ footer a {
   color: #ebb583;
 }
 .job{
-  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 40px;
 }
 
 
@@ -556,6 +556,19 @@ border-radius: 6px;
     width: 80%;
     margin: auto;
   }
+
+  .header-img-product{
+    height: 50vh;
+  }
+
+  .header-text-product{
+    height: 50vh;
+  }
+
+  .header-container {
+  height: auto;
+}
+
 }
 
 @media (max-width: 1200px) {
