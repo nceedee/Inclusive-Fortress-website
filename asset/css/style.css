@@ -943,6 +943,7 @@ footer a {
   .header {
     padding: 6px;
     background-size: cover;
+    height: 70vh;
   }
 
   .header-img-product {
