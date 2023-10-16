@@ -111,11 +111,11 @@ nav img {
   margin: 0;
 }
 
-.mobile-center-nav ul li a{
+.mobile-center-nav ul li a {
   color: white;
 }
 
-.mobile-dropdown-content{
+.mobile-dropdown-content {
   display: flex;
   flex-direction: column;
   line-height: 2;
@@ -124,13 +124,13 @@ nav img {
   padding-bottom: 6px;
 }
 
-.sect{
+.sect {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.sect i{
+.sect i {
   color: white;
 }
 
@@ -554,82 +554,171 @@ footer a {
 }
 
 /*  */
-.robin{
-    margin-top: 60px;
-    text-align: center;
+.robin {
+  margin-top: 60px;
+  text-align: center;
 }
 
-.happy-clients{
-    text-align: center;
-    line-height: .5;
-    margin-top: 90px;
+.happy-clients {
+  text-align: center;
+  line-height: 0.5;
+  margin-top: 90px;
 }
 
-.robin-face img{
-    border-radius: 100%;
-    object-fit: cover;  
+.robin-face img {
+  border-radius: 100%;
+  object-fit: cover;
 }
 
-.robin-stars{
-    color: rgb(232, 160, 26);
-    margin-top: 10px;
+.robin-stars {
+  color: rgb(232, 160, 26);
+  margin-top: 10px;
 }
 
-.robin-feed{
-    line-height: .5;
+.robin-feed {
+  line-height: 0.5;
 }
 
-
-.john{
-    margin-top: 60px;
-    text-align: center;
+.john {
+  margin-top: 60px;
+  text-align: center;
 }
 
-.cleint-h1{
+.cleint-h1 {
   text-align: center;
   margin-top: 30px;
 }
 
-.john-face img{
-    border-radius: 100%;
-    object-fit: cover;
+.john-face img {
+  border-radius: 100%;
+  object-fit: cover;
 }
 
-.john-stars{
-    color: rgb(232, 160, 26);
-    margin-top: 10px;
+.john-stars {
+  color: rgb(232, 160, 26);
+  margin-top: 10px;
 }
 
-.john-feed{
-    line-height: .5;
-    
+.john-feed {
+  line-height: 0.5;
 }
 
-.smith{
-    margin-top: 60px;
-    text-align: center;
+.smith {
+  margin-top: 60px;
+  text-align: center;
 }
 
-
-.smith-face img{
-    border-radius: 100%;
-    object-fit: cover;
+.smith-face img {
+  border-radius: 100%;
+  object-fit: cover;
 }
 
-.smith-stars{
-    color: rgb(232, 160, 26);
-    margin-top: 10px;
+.smith-stars {
+  color: rgb(232, 160, 26);
+  margin-top: 10px;
 }
 
-.smith-feed{
-    line-height: .5;
-    
+.smith-feed {
+  line-height: 0.5;
 }
 
-.customers-star{
-  display: flex; 
+.customers-star {
+  display: flex;
   justify-content: center;
   gap: 40px;
+}
+
+/*  */
+
+/*  */
+
+.about-row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.about-school-col {
+  flex-basis: 31%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  height: auto;
+}
+
+.about-school-col:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background: rgba(135, 116, 235, 0.5);
+  color: white;
+}
+
+.about-school .about-school-col:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background: #8774eb;
+  color: white;
+}
+
+.about-school .about-school-col:hover p {
+  color: white;
+}
+
+.about-social {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.about-social-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-social-col img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  display: block;
+  background-size: contain;
+}
+
+.about-layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.about-layer:hover {
+  background: rgba(135, 116, 235, 0.5);
+}
+
+.about-layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.about-layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
 }
 
 /*  */
@@ -738,11 +827,14 @@ footer a {
     height: auto;
   }
 
-  .customers-star{
-  display: flex;
-  flex-direction: column; 
-}
+  .customers-star {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .about-row{
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 1200px) {
