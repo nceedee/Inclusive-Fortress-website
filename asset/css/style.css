@@ -626,8 +626,9 @@ footer a {
   }
 
   .header {
-    height: auto;
+    height: 50vh;
     padding: 6px;
+    background-size: cover;
   }
 
   .header-img-product {
