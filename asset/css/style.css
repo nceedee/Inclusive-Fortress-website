@@ -687,7 +687,6 @@ footer a {
   height: 70vh;
   object-fit: cover;
   display: block;
-  background-size: contain;
 }
 
 .about-layer {
@@ -702,6 +701,12 @@ footer a {
 
 .about-layer:hover {
   background: rgba(135, 116, 235, 0.5);
+}
+
+.click-show{
+  background-color: rgba(53, 41, 69,.5);
+  padding: 12px;
+  color: white;
 }
 
 .about-layer h3 {
