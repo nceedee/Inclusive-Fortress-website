@@ -553,6 +553,86 @@ footer a {
   padding-top: 20px;
 }
 
+/*  */
+.robin{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.happy-clients{
+    text-align: center;
+    line-height: .5;
+    margin-top: 90px;
+}
+
+.robin-face img{
+    border-radius: 100%;
+    object-fit: cover;  
+}
+
+.robin-stars{
+    color: rgb(232, 160, 26);
+    margin-top: 10px;
+}
+
+.robin-feed{
+    line-height: .5;
+}
+
+
+.john{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.cleint-h1{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.john-face img{
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.john-stars{
+    color: rgb(232, 160, 26);
+    margin-top: 10px;
+}
+
+.john-feed{
+    line-height: .5;
+    
+}
+
+.smith{
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+.smith-face img{
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.smith-stars{
+    color: rgb(232, 160, 26);
+    margin-top: 10px;
+}
+
+.smith-feed{
+    line-height: .5;
+    
+}
+
+.customers-star{
+  display: flex; 
+  justify-content: center;
+  gap: 40px;
+}
+
+/*  */
 @media (max-width: 991px) {
   .footer1 p {
     text-align: center;
@@ -657,6 +737,12 @@ footer a {
   .header-container {
     height: auto;
   }
+
+  .customers-star{
+  display: flex;
+  flex-direction: column; 
+}
+
 }
 
 @media (max-width: 1200px) {
